@@ -1,0 +1,39 @@
+================ (Mon Oct 23 17:29:07 2023) ================
+gpu_ids: [0] project_name: test_1023_base checkpoint_root: checkpoints_1023_base num_workers: 2 dataset: CDDataset data_name: LEVIR batch_size: 4 split: train split_val: val img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1023_base/test_1023_base vis_dir: vis/test_1023_base loading last checkpoint...
+Eval Historical_best_acc = 0.9314 (at epoch 194)
+
+Begin evaluation...
+Is_training: False. [1,32],  running_mf1: 0.92592
+acc: 0.98645 miou: 0.87120 mf1: 0.92714 iou_0: 0.98586 iou_1: 0.75654 F1_0: 0.99288 F1_1: 0.86140 precision_0: 0.99073 precision_1: 0.89940 recall_0: 0.99504 recall_1: 0.82647 
+
+================ (Mon Oct 30 16:08:35 2023) ================
+gpu_ids: [0] project_name: test_1023_base print_models: True num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: test img_size: 256 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 checkpoint_name: best_ckpt.pt checkpoint_dir: checkpoints_1023_base\test_1023_base vis_dir: vis\test_1023_base loading last checkpoint...
+================ (Mon Oct 30 16:09:18 2023) ================
+gpu_ids: [0] project_name: test_1023_base print_models: True num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: test img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 checkpoint_name: best_ckpt.pt checkpoint_dir: checkpoints_1023_base\test_1023_base vis_dir: vis\test_1023_base loading last checkpoint...
+================ (Mon Oct 30 16:09:54 2023) ================
+gpu_ids: [0] project_name: test_1023_base print_models: True num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: test img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8 checkpoint_name: best_ckpt.pt checkpoint_dir: checkpoints_1023_base\test_1023_base vis_dir: vis\test_1023_base loading last checkpoint...
+Eval Historical_best_acc = 0.9314 (at epoch 194)
+
+Begin evaluation...
+Is_training: False. [1,128],  running_mf1: 0.93766
+Is_training: False. [101,128],  running_mf1: 0.91417
+acc: 0.98645 miou: 0.87120 mf1: 0.92714 iou_0: 0.98586 iou_1: 0.75654 F1_0: 0.99288 F1_1: 0.86140 precision_0: 0.99073 precision_1: 0.89938 recall_0: 0.99504 recall_1: 0.82649 
+
+================ (Mon Oct 30 16:10:52 2023) ================
+gpu_ids: [0] project_name: test_1023_base print_models: True num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: test img_size: 256 n_class: 2 net_G: base_transformer_pos_s4_dd8 checkpoint_name: best_ckpt.pt checkpoint_dir: checkpoints_1023_base\test_1023_base vis_dir: vis\test_1023_base loading last checkpoint...
+Eval Historical_best_acc = 0.9314 (at epoch 194)
+
+Begin evaluation...
+Is_training: False. [1,128],  running_mf1: 0.65756
+Is_training: False. [101,128],  running_mf1: 0.48106
+acc: 0.95552 miou: 0.55664 mf1: 0.62507 iou_0: 0.95514 iou_1: 0.15814 F1_0: 0.97706 F1_1: 0.27309 precision_0: 0.95696 precision_1: 0.81574 recall_0: 0.99801 recall_1: 0.16399 
+
+================ (Mon Oct 30 16:24:38 2023) ================
+gpu_ids: [0] project_name: test_1023_base print_models: True num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: test img_size: 1024 n_class: 2 net_G: base_transformer_pos_s4_dd8 checkpoint_name: best_ckpt.pt checkpoint_dir: checkpoints_1023_base\test_1023_base vis_dir: vis\test_1023_base loading last checkpoint...
+Eval Historical_best_acc = 0.9314 (at epoch 194)
+
+Begin evaluation...
+Is_training: False. [1,128],  running_mf1: 0.93515
+Is_training: False. [101,128],  running_mf1: 0.80740
+acc: 0.98063 miou: 0.80870 mf1: 0.88423 iou_0: 0.97995 iou_1: 0.63745 F1_0: 0.98987 F1_1: 0.77859 precision_0: 0.98247 precision_1: 0.93226 recall_0: 0.99739 recall_1: 0.66841 
+

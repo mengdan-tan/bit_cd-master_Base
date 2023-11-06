@@ -1,0 +1,2 @@
+================ (Sun Oct 29 17:13:51 2023) ================
+gpu_ids: [0] project_name: test1029_2 checkpoint_root: checkpoints_1029_2 num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: train split_val: val img_size: 256 n_class: 2 net_G: base_transformer_pos_s4_dd8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1029_2\test1029_2 vis_dir: vis\test1029_2 lr: 0.0100000

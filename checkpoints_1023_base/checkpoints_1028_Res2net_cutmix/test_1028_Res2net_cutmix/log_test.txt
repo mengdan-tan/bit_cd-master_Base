@@ -1,0 +1,24 @@
+================ (Sat Oct 28 19:07:05 2023) ================
+gpu_ids: [0] project_name: test_1028_Res2net_cutmix checkpoint_root: checkpoints_1028_Res2net_cutmix num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 4 split: train split_val: val img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_res2net50 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1028_Res2net_cutmix/test_1028_Res2net_cutmix vis_dir: vis/test_1028_Res2net_cutmix loading last checkpoint...
+Eval Historical_best_acc = 0.9035 (at epoch 197)
+
+Begin evaluation...
+Is_training: False. [1,32],  running_mf1: 0.89922
+acc: 0.98148 miou: 0.83097 mf1: 0.90033 iou_0: 0.98072 iou_1: 0.68123 F1_0: 0.99026 F1_1: 0.81039 precision_0: 0.98808 precision_1: 0.84682 recall_0: 0.99246 recall_1: 0.77697 
+
+================ (Sat Oct 28 19:12:21 2023) ================
+gpu_ids: [0] project_name: test_1028_Res2net_cutmix checkpoint_root: checkpoints_1028_Res2net_cutmix num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 4 split: train split_val: val img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_res2net50 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1028_Res2net_cutmix/test_1028_Res2net_cutmix vis_dir: vis/test_1028_Res2net_cutmix loading last checkpoint...
+Eval Historical_best_acc = 0.9035 (at epoch 197)
+
+Begin evaluation...
+Is_training: False. [1,32],  running_mf1: 0.89922
+acc: 0.98148 miou: 0.83097 mf1: 0.90033 iou_0: 0.98072 iou_1: 0.68123 F1_0: 0.99026 F1_1: 0.81039 precision_0: 0.98808 precision_1: 0.84682 recall_0: 0.99246 recall_1: 0.77697 
+
+================ (Sat Oct 28 19:12:57 2023) ================
+gpu_ids: [0] project_name: test_1028_Res2net_cutmix checkpoint_root: checkpoints_1028_Res2net_cutmix num_workers: 8 dataset: CDDataset data_name: LEVIR batch_size: 4 split: train split_val: val img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8_res2net50 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 400 checkpoint_dir: checkpoints_1028_Res2net_cutmix/test_1028_Res2net_cutmix vis_dir: vis/test_1028_Res2net_cutmix loading last checkpoint...
+Eval Historical_best_acc = 0.9035 (at epoch 197)
+
+Begin evaluation...
+Is_training: False. [1,32],  running_mf1: 0.89922
+acc: 0.98148 miou: 0.83097 mf1: 0.90033 iou_0: 0.98072 iou_1: 0.68123 F1_0: 0.99026 F1_1: 0.81039 precision_0: 0.98808 precision_1: 0.84682 recall_0: 0.99246 recall_1: 0.77697 
+

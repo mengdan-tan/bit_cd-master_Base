@@ -1,0 +1,5 @@
+================ (Mon Nov  6 14:21:28 2023) ================
+gpu_ids: [0] project_name: test_1030 checkpoint_root: checkpoints_1030_1 num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 2 split: train split_val: val img_size: 128 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1030_1\test_1030 vis_dir: vis\test_1030 lr: 0.0100000
+================ (Mon Nov  6 14:26:55 2023) ================
+gpu_ids: [0] project_name: test_1030 checkpoint_root: checkpoints_1030_1 num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 2 split: train split_val: val img_size: 128 n_class: 2 net_G: base_transformer_pos_s4_dd8_dedim8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1030_1\test_1030 vis_dir: vis\test_1030 lr: 0.0100000
+Is_training: True. [0,199][1,3560], imps: 0.00, est: 172177.15h, G_loss: 0.67363, running_mf1: 0.37743

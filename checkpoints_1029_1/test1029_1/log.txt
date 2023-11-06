@@ -1,0 +1,28 @@
+================ (Sun Oct 29 14:37:46 2023) ================
+gpu_ids: [0] project_name: test1029_1 checkpoint_root: checkpoints_1029_1 num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: train split_val: val img_size: 256 n_class: 2 net_G: base_transformer_pos_s4_dd8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1029_1\test1029_1 vis_dir: vis\test1029_1 lr: 0.0100000
+================ (Sun Oct 29 14:39:09 2023) ================
+gpu_ids: [0] project_name: test1029_1 checkpoint_root: checkpoints_1029_1 num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: train split_val: val img_size: 256 n_class: 2 net_G: base_transformer_pos_s4_dd8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1029_1\test1029_1 vis_dir: vis\test1029_1 lr: 0.0100000
+Is_training: True. [0,199][1,445], imps: 0.62, est: 40.13h, G_loss: 0.58894, running_mf1: 0.44727
+Is_training: True. [0,199][101,445], imps: 2.27, est: 10.89h, G_loss: 0.04182, running_mf1: 0.49856
+Is_training: True. [0,199][201,445], imps: 2.16, est: 11.44h, G_loss: 0.07148, running_mf1: 0.49751
+Is_training: True. [0,199][301,445], imps: 2.04, est: 12.08h, G_loss: 0.44227, running_mf1: 0.46241
+Is_training: True. [0,199][401,445], imps: 1.99, est: 12.35h, G_loss: 0.27825, running_mf1: 0.47760
+Is_training: True. Epoch 0 / 199, epoch_mF1= 0.48794
+acc: 0.95157 miou: 0.47596 mf1: 0.48794 iou_0: 0.95157 iou_1: 0.00035 F1_0: 0.97519 F1_1: 0.00070 precision_0: 0.95386 precision_1: 0.00706 recall_0: 0.99749 recall_1: 0.00037 
+
+Begin evaluation...
+Is_training: False. [0,199][1,64], imps: 0.01, est: 2787.13h, G_loss: 0.05639, running_mf1: 0.49831
+Is_training: False. Epoch 0 / 199, epoch_mF1= 0.48928
+acc: 0.95803 miou: 0.47902 mf1: 0.48928 iou_0: 0.95803 iou_1: 0.00000 F1_0: 0.97857 F1_1: 0.00000 precision_0: 0.95803 precision_1: 0.00000 recall_0: 1.00000 recall_1: 0.00000 
+
+Lastest model updated. Epoch_acc=0.4893, Historical_best_acc=0.0000 (at epoch 0)
+
+**********Best model updated!
+
+lr: 0.0099502
+Is_training: True. [1,199][1,445], imps: 1.80, est: 13.68h, G_loss: 0.05488, running_mf1: 0.50000
+Is_training: True. [1,199][101,445], imps: 1.82, est: 13.51h, G_loss: 0.03935, running_mf1: 0.49934
+Is_training: True. [1,199][201,445], imps: 1.84, est: 13.33h, G_loss: 0.06622, running_mf1: 0.50000
+Is_training: True. [1,199][301,445], imps: 1.87, est: 13.11h, G_loss: 0.05923, running_mf1: 0.49868
+================ (Sun Oct 29 17:13:18 2023) ================
+gpu_ids: [0] project_name: test1029_1 checkpoint_root: checkpoints_1029_1 num_workers: 0 dataset: CDDataset data_name: LEVIR batch_size: 1 split: train split_val: val img_size: 256 n_class: 2 net_G: base_transformer_pos_s4_dd8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1029_1\test1029_1 vis_dir: vis\test1029_1 loading last checkpoint...
